@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/FirstClass/Scene/SampleScene.unity
+- path: Assets/Animator/Scene/Animator Example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

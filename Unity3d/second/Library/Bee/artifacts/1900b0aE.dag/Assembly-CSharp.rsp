@@ -350,6 +350,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/FirstClass/Script/Test.cs"
+"Assets/Instantiate & Destroy/Script/Create.cs"
+"Assets/Instantiate & Destroy/Script/Delay.cs"
+"Assets/Instantiate & Destroy/Script/Delete.cs"
 -langversion:9.0
 
 /deterministic

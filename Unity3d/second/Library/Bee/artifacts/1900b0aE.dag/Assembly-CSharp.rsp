@@ -357,6 +357,8 @@
 "Assets/Instantiate & Destroy/Script/Create.cs"
 "Assets/Instantiate & Destroy/Script/Delay.cs"
 "Assets/Instantiate & Destroy/Script/Delete.cs"
+"Assets/Sound/Script/Control.cs"
+"Assets/Sound/Script/SoundManager.cs"
 -langversion:9.0
 
 /deterministic

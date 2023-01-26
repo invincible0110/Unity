@@ -14,14 +14,15 @@ public class Control : MonoBehaviour
         control = GetComponent<CharacterController>();    
     }
 
-}
 
-private void Update()
-{
-    float x = Input.GetAxis("Horizontal");
-    float y = Input.GetAxis("Vertical");
 
-    Vector3 direction = new Vector3(x, 0, z).normalized;
+    private void Update()
+    {
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
 
-    control.SimpleMove(direction * speed);
+        Vector3 direction = new Vector3(x, 0, z).normalized;
+
+        control.SimpleMove(direction * speed);
+    }
 }

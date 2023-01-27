@@ -353,6 +353,7 @@
 "Assets/Animation Clip/Script/FileLoad.cs"
 "Assets/Animation Clip/Script/PopUp.cs"
 "Assets/Animator/Script/AnimationAction.cs"
+"Assets/Collision/Script/CharacterControl.cs"
 "Assets/FirstClass/Script/Test.cs"
 "Assets/Instantiate & Destroy/Script/Create.cs"
 "Assets/Instantiate & Destroy/Script/Delay.cs"

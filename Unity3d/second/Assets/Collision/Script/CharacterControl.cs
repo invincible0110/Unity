@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CharacterControl : MonoBehaviour
@@ -8,7 +9,7 @@ public class CharacterControl : MonoBehaviour
     public float speed;
 
     Rigidbody rigid;
-    Vector3 dir;
+    Vector3 direction;
 
     
     void Start()
@@ -18,19 +19,42 @@ public class CharacterControl : MonoBehaviour
 
     void Update()
     {
-        dir.x = Input.GetAxis("Horizontal");
-        dir.z = Input.GetAxis("Vertical");
+        direction.x = Input.GetAxis("Horizontal");
+        direction.z = Input.GetAxis("Vertical");
 
 
         // P = P0 + vt
-        transform.position = dir;
-
-        transform.Translate(dir * speed * Time.deltaTime);
-
+        
         if(Input.GetKeyDown(KeyCode.Space) && condition == true)
         {
             rigid.AddForce(new Vector3(0, 200, 0));
             condition= false;
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        condition = true;
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+    
+        condition = false;
+        transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+    }
+
+    private void FixedUpdate()
+    {
+        // 0.02초마다 실행되면서 Update가 실행되기 전에 실행되는 함수
+        rigid.MovePosition
+        (
+            rigid.position + direction * speed * Time.deltaTime
+        );
     }
 }

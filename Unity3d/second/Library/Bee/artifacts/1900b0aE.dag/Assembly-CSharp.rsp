@@ -359,6 +359,8 @@
 "Assets/Instantiate & Destroy/Script/Create.cs"
 "Assets/Instantiate & Destroy/Script/Delay.cs"
 "Assets/Instantiate & Destroy/Script/Delete.cs"
+"Assets/Light/Script/LightManager.cs"
+"Assets/Light/Script/Patrol.cs"
 "Assets/Nev Mash Agent/Script/Controller.cs"
 "Assets/Sound/Script/Control.cs"
 "Assets/Sound/Script/SoundManager.cs"

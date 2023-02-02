@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Nev Mash Obstacle/Scene/Nev Mash Obstacle Example.unity
+- path: Assets/Animation Retaggeting/Scene/Animation Retaggeting Example.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

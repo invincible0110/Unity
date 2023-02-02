@@ -352,6 +352,8 @@
 "Assets/Animation Blend/Script/Motion.cs"
 "Assets/Animation Clip/Script/FileLoad.cs"
 "Assets/Animation Clip/Script/PopUp.cs"
+"Assets/Animation Retaggeting/Script/AnimationControl.cs"
+"Assets/Animation Retaggeting/Script/DataSystem.cs"
 "Assets/Animator/Script/AnimationAction.cs"
 "Assets/Collision/Script/CharacterControl.cs"
 "Assets/Collision/Script/Sensor.cs"

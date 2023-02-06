@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class State : MonoBehaviour
 {
+    // 
+
     private Animator animator;
     [SerializeField] Slider HealthGauge;
 

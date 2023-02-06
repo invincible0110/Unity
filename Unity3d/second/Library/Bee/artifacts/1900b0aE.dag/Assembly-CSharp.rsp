@@ -367,6 +367,8 @@
 "Assets/Nev Mash Agent/Script/Controller.cs"
 "Assets/Nev Mash Obstacle/Script/Arrival.cs"
 "Assets/Nev Mash Obstacle/Script/AutoMove.cs"
+"Assets/Rotation/Script/Observe.cs"
+"Assets/Rotation/Script/Revolution.cs"
 "Assets/Sound/Script/Control.cs"
 "Assets/Sound/Script/SoundManager.cs"
 -langversion:9.0

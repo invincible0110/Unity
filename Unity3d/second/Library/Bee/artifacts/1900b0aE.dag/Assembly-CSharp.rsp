@@ -364,6 +364,8 @@
 "Assets/Instantiate & Destroy/Script/Delete.cs"
 "Assets/Light/Script/LightManager.cs"
 "Assets/Light/Script/Patrol.cs"
+"Assets/Mouse Function/Script/Mouse.cs"
+"Assets/Mouse Function/Script/Zoom.cs"
 "Assets/Nev Mash Agent/Script/Controller.cs"
 "Assets/Nev Mash Obstacle/Script/Arrival.cs"
 "Assets/Nev Mash Obstacle/Script/AutoMove.cs"

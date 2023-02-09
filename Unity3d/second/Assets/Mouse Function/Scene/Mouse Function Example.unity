@@ -232,12 +232,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cfff348cd11b6d4489a1b703a7f4bf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigid: {fileID: 0}
-  state: {fileID: 0}
-  video: {fileID: 0}
+  rigid: {fileID: 102732867}
+  state: {fileID: 31685311}
+  video: {fileID: 1339375970}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
 --- !u!65 &102732863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -464,9 +464,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 521293164145740060, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2340f1552167cab42b925869d073ef98, type: 2}
+    - target: {fileID: 521293164145740060, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2340f1552167cab42b925869d073ef98, type: 2}
     - target: {fileID: 919132149155446097, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
       propertyPath: m_Name
       value: HD TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8433707379388148784, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8553851626267149118, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97c6f4f6816833e47831e4ee4874989f, type: 3}
@@ -491,8 +511,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.03
+  m_Center: {x: -0.0025, y: -0.4475, z: 0.015}
 --- !u!1 &630218623
 GameObject:
   m_ObjectHideFlags: 0

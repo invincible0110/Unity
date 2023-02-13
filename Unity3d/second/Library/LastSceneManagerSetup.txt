@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Game/Scene/Title.unity
+- path: "C:/Users/\uC190\uC131\uD601/Desktop/Photon Server Game/Assets/Scenes/SampleScene.unity"
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Game/Scene/Game.unity
-  isLoaded: 1
-  isActive: 0
   isSubScene: 0
